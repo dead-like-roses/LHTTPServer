@@ -37,6 +37,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LHTTPClient">
+				<Option output="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/LHTTPClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LHTTPClient/fast">
+				<Option output="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/LHTTPClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="LHTTPServer">
 				<Option output="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/LHTTPServer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
@@ -78,7 +118,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lenny/CLionProjects/LHTTPServer/main.c">
+		<Unit filename="/Users/lenny/CLionProjects/LHTTPServer/client.c">
+			<Option target="LHTTPClient"/>
+		</Unit>
+		<Unit filename="/Users/lenny/CLionProjects/LHTTPServer/server.c">
 			<Option target="LHTTPServer"/>
 		</Unit>
 		<Unit filename="/Users/lenny/CLionProjects/LHTTPServer/CMakeLists.txt">

@@ -1,3 +1,4 @@
 /Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/CMakeFiles/LHTTPClient.dir
 /Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/CMakeFiles/LHTTPServer.dir

@@ -57,27 +57,27 @@ include CMakeFiles/LHTTPServer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LHTTPServer.dir/flags.make
 
-CMakeFiles/LHTTPServer.dir/main.c.o: CMakeFiles/LHTTPServer.dir/flags.make
-CMakeFiles/LHTTPServer.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LHTTPServer.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LHTTPServer.dir/main.c.o   -c /Users/lenny/CLionProjects/LHTTPServer/main.c
+CMakeFiles/LHTTPServer.dir/server.c.o: CMakeFiles/LHTTPServer.dir/flags.make
+CMakeFiles/LHTTPServer.dir/server.c.o: ../server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LHTTPServer.dir/server.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LHTTPServer.dir/server.c.o   -c /Users/lenny/CLionProjects/LHTTPServer/server.c
 
-CMakeFiles/LHTTPServer.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LHTTPServer.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lenny/CLionProjects/LHTTPServer/main.c > CMakeFiles/LHTTPServer.dir/main.c.i
+CMakeFiles/LHTTPServer.dir/server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LHTTPServer.dir/server.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lenny/CLionProjects/LHTTPServer/server.c > CMakeFiles/LHTTPServer.dir/server.c.i
 
-CMakeFiles/LHTTPServer.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LHTTPServer.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lenny/CLionProjects/LHTTPServer/main.c -o CMakeFiles/LHTTPServer.dir/main.c.s
+CMakeFiles/LHTTPServer.dir/server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LHTTPServer.dir/server.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lenny/CLionProjects/LHTTPServer/server.c -o CMakeFiles/LHTTPServer.dir/server.c.s
 
 # Object files for target LHTTPServer
 LHTTPServer_OBJECTS = \
-"CMakeFiles/LHTTPServer.dir/main.c.o"
+"CMakeFiles/LHTTPServer.dir/server.c.o"
 
 # External object files for target LHTTPServer
 LHTTPServer_EXTERNAL_OBJECTS =
 
-LHTTPServer: CMakeFiles/LHTTPServer.dir/main.c.o
+LHTTPServer: CMakeFiles/LHTTPServer.dir/server.c.o
 LHTTPServer: CMakeFiles/LHTTPServer.dir/build.make
 LHTTPServer: CMakeFiles/LHTTPServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LHTTPServer"

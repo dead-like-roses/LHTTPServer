@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LHTTPServer.dir/main.c.o"
+  "CMakeFiles/LHTTPServer.dir/server.c.o"
   "LHTTPServer"
   "LHTTPServer.pdb"
 )
