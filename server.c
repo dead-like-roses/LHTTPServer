@@ -4,10 +4,11 @@
 #include <stdlib.h>
 #include <netinet/in.h>
 #include <string.h>
+#include <errno.h>
 
 #define DEF_PORT 8080
 
-//void mem_usage();
+void mem_usage();
 
 int main(int argc, char const *argv[]) {
     int server_fd, new_socket;
@@ -15,7 +16,7 @@ int main(int argc, char const *argv[]) {
     struct sockaddr_in address;
     int addrlen = sizeof(address);
 
-    char *hello = "Server is responding, hello!";
+    char *hello = "HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Lenght: 12\n\nHello world!";
 
     //Create socket
     if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
@@ -39,7 +40,7 @@ int main(int argc, char const *argv[]) {
     }
     while (1) {
         printf("LServer: Waiting for connection...\n");
-        //mem_usage();
+        mem_usage();
         if ((new_socket = accept(server_fd, (struct sockaddr *) &address, (socklen_t *) &addrlen)) < 0) {
             perror("LServer: Error occurred in accept. Exiting.");
             exit(EXIT_FAILURE);
@@ -54,9 +55,8 @@ int main(int argc, char const *argv[]) {
     }
 }
 
-/*void mem_usage(){ //TODO: FIX IT
+void mem_usage(){ //TODO: FIX IT
     struct rusage r_usage;
-    while(1) {
 
         int ret = getrusage(RUSAGE_SELF,&r_usage);
         if (ret == 0){
@@ -65,7 +65,5 @@ int main(int argc, char const *argv[]) {
         else{
             printf("Error in getrusage. errno = %d\n", errno);
         }
-        usleep(1000000);
-    }
 }
-*/
+

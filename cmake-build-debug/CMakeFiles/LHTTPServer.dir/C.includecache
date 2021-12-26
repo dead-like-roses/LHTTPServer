@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lenny/CLionProjects/LHTTPServer/server.c
+stdio.h
+-
+sys/socket.h
+-
+unistd.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+string.h
+-
+errno.h
+-
+
