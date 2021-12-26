@@ -12,13 +12,11 @@ void mem_usage();
 
 int main(int argc, char const *argv[]) {
     int server_fd, new_socket;
-    //long val_read; //possibly usless? Check it later
     struct sockaddr_in address;
     int addrlen = sizeof(address);
 
-    char *hello = "HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Lenght: 12\n\nHello world!";
+    char *hello = "HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Lenght: 12\n\nserwer dziala";
 
-    //Create socket
     if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
         perror("LServer: Error occurred in socket. Exiting.");
         exit(EXIT_FAILURE);
@@ -47,15 +45,14 @@ int main(int argc, char const *argv[]) {
         }
 
         char buffer[30000] = {0};
-        //val_read = read(new_socket, buffer, 30000); //???
         printf("%s\n", buffer);
         write(new_socket, hello, strlen(hello));
-        printf("Server: Sent hello message.\n");
+        printf("Server: Sent message.\n");
         close(new_socket);
     }
 }
 
-void mem_usage(){ //TODO: FIX IT
+void mem_usage(){
     struct rusage r_usage;
 
         int ret = getrusage(RUSAGE_SELF,&r_usage);
