@@ -8,123 +8,119 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option working_dir="/home/kitty/code/LHTTPServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option working_dir="/home/kitty/code/LHTTPServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kitty/code/LHTTPServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LHTTPClient">
-				<Option output="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/LHTTPClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option output="/home/kitty/code/LHTTPServer/cmake-build-debug/LHTTPClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kitty/code/LHTTPServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/7rfaw11na5ajdgwr55ffzwfibbrdpk8z-glibc-2.33-56-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPClient"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPClient"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LHTTPClient/fast">
-				<Option output="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/LHTTPClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option output="/home/kitty/code/LHTTPServer/cmake-build-debug/LHTTPClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kitty/code/LHTTPServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/7rfaw11na5ajdgwr55ffzwfibbrdpk8z-glibc-2.33-56-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPClient/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPClient/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LHTTPServer">
-				<Option output="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/LHTTPServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option output="/home/kitty/code/LHTTPServer/cmake-build-debug/LHTTPServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kitty/code/LHTTPServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/7rfaw11na5ajdgwr55ffzwfibbrdpk8z-glibc-2.33-56-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPServer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPServer"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LHTTPServer/fast">
-				<Option output="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/LHTTPServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug"/>
+				<Option output="/home/kitty/code/LHTTPServer/cmake-build-debug/LHTTPServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kitty/code/LHTTPServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/include"/>
+					<Add directory="/nix/store/h6d0c7lnxx65i925xmnxgwdfdvc7hc2p-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"/>
+					<Add directory="/nix/store/7rfaw11na5ajdgwr55ffzwfibbrdpk8z-glibc-2.33-56-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPServer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenny/CLionProjects/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LHTTPServer/fast"/>
+					<CompileFile command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/run/current-system/sw/bin/make -j4 -f &quot;/home/kitty/code/LHTTPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lenny/CLionProjects/LHTTPServer/client.c">
+		<Unit filename="/home/kitty/code/LHTTPServer/client.c">
 			<Option target="LHTTPClient"/>
 		</Unit>
-		<Unit filename="/Users/lenny/CLionProjects/LHTTPServer/server.c">
+		<Unit filename="/home/kitty/code/LHTTPServer/server.c">
 			<Option target="LHTTPServer"/>
 		</Unit>
-		<Unit filename="/Users/lenny/CLionProjects/LHTTPServer/CMakeLists.txt">
+		<Unit filename="/home/kitty/code/LHTTPServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

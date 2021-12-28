@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/lenny/CLionProjects/LHTTPServer/server.c
+/home/kitty/code/LHTTPServer/server.c
 stdio.h
 -
 sys/socket.h
@@ -20,5 +20,9 @@ netinet/in.h
 string.h
 -
 errno.h
+-
+stdio.h
+-
+sys/stat.h
 -
 
