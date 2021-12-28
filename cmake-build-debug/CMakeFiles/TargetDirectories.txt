@@ -1,4 +1,0 @@
-/home/kitty/code/LHTTPServer/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/kitty/code/LHTTPServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kitty/code/LHTTPServer/cmake-build-debug/CMakeFiles/LHTTPClient.dir
-/home/kitty/code/LHTTPServer/cmake-build-debug/CMakeFiles/LHTTPServer.dir

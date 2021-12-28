@@ -1,1 +1,0 @@
-/run/current-system/sw/bin/cc -g CMakeFiles/LHTTPServer.dir/server.c.o -o LHTTPServer 
